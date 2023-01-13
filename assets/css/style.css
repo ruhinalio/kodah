@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+header .header {
+  padding: 0 3rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+header .header .logo h1 {
+  font-family: "Josefin Slab", serif;
+}
+header .header .menu {
+  display: none;
+}
+header .header .nav-links .links {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header .nav-links .links a {
+  color: #000;
+  padding: 8px 0;
+}
+header .header .nav-links .links a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.travelling {
+  padding: 9rem 3rem 0 3rem;
+}
+.travelling-side {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.travelling-side-right h2 {
+  margin-bottom: 2rem;
+}
+.travelling-side-right h3 {
+  margin-bottom: 3rem;
+}
+.travelling-side-right p {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.most-recent {
+  padding: 0 3rem;
+}
+.most-recent-side {
+  padding: 3rem 0;
+}
+.most-recent-side h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.most-recent-side .most-recents {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.most-recent-side .most-recents .most-recent {
+  width: 680px;
+}
+.most-recent-side .most-recents .most-recent img {
+  width: 100%;
+}
+.most-recent-side .most-recents .most-recent h3 {
+  margin: 1rem 0;
+}
+.most-recent-side .most-recents .most-recent p {
+  margin: 1rem 0;
+}
+.most-recent-side .button-side {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+.most-recent-side .button-side button {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.most-recent-side .button-side button p {
+  font-size: 18px;
+  color: #000;
+}
+
+.photo {
+  padding: 0 3rem;
+}
+.photo-side {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-side {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 4rem;
+}
+.footer-side .form-side {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.footer-side .form-side p {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.footer-side .form-side input {
+  border: none;
+  background-color: #d0cdcd;
+  width: 400px;
+  padding: 1rem 2rem 1rem 0.5rem;
+}
+.footer-side .form-side .button-side {
+  max-width: 96px;
+  padding-top: 2rem;
+}
+.footer-side .form-side .button-side button {
+  padding: 1rem 3rem;
+  background-color: #fff;
+}
+.footer-side .social-side {
+  margin-top: 2rem;
+  width: 200px;
+}
+
+@media only screen and (max-width: 991px) {
+  header .header .nav-links {
+    display: none;
+  }
+  header .header .menu {
+    display: block;
+  }
+  .travelling-side-right {
+    margin-top: 2rem;
+  }
+  .most-recent-side h2 {
+    font-size: 40px;
+  }
+  .footer-side {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+  .travelling-left img {
+    width: 200px;
+  }
+  .travelling-side-right h2 {
+    font-size: 40px;
+  }
+  .photo-side img {
+    padding-bottom: 1rem;
+  }
+}
+.travelling-side-right h2, .most-recent-side h2 {
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.travelling-side-right h3, .most-recent-side .most-recents .most-recent h3, .most-recent-side .button-side button p, .footer-side .form-side .button-side button {
+  font-family: "Josefin Slab", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.most-recent-side .most-recents .most-recent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */
